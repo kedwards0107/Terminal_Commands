@@ -1,0 +1,32 @@
+Terminal commands
+
+zsh => z shell (native Mac terminal)
+Bash => changes to a bash terminal (legacy Mac terminal)
+cd => change directory (folder)
+cd .. => move up one directory
+cd /User/Desktop => change directory to path provided
+cd / => go to root directory
+cd ~ => go to home directory
+ls => list items in current directory
+mkdir => make folder in current directory, can be multiple
+mkdir folder/subfolder => make folder and subfolder
+mkdir ../folder => make folder one level up
+pwd => print working directory, show absolute path
+man => shows manual for flags/command (ex. man ls) q to quit
+ls -l => example of using flags to get additional information
+ls -la => can combine flags to show combination of information
+touch => makes file/s within current folder (ex. touch index.html) if it doesn’t exist. otherwise it shows when it was modified & accessed
+rm => remove a file (danger… permanently deletes)
+rmdir => remove empty folders
+rm -rf =>  removes folder and all content	 (ex. rm -rf Project1)
+Virtual Environment:
+python3 -m venv project_name (common to use venv as project name) =>  creates virtual environment
+source project_name/bin/activate  =>  activates virtual environment
+pip list => list packages installed in virtual environment
+pip freeze > requirements.txt => creates txt file that list all installed packages and versions (can be any name for txt file)
+cat requirements.txt => shows txt file
+deactivate => deactivates virtual environment
+rm -rf project_name => deletes virtual environment and all files therein
+pip install -r requirements.txt => if requirements.txt exist then will copy over all packages
+python3 -m venv venv —system-site-packages => installs all global packages in virtual environment any additional packages added will only be added
+to virtual environment
