@@ -21,6 +21,8 @@ rmdir => remove empty folders
 rm -rf =>  removes folder and all content	 (ex. rm -rf Project1)
 Virtual Environment: 
 Python Tutorial VENV (Mac & Linux) - How to Use Virtual Environments with the Built-In venv Module - https://www.youtube.com/watch?v=Kg1Yvry_Ydk
+mk dir project_folder => create folder for new project
+cd /project_folder => open project folder
 python3 -m venv project_name (common to use venv as project name) =>  creates virtual environment
 source project_name/bin/activate  =>  activates virtual environment
 pip list => list packages installed in virtual environment
