@@ -19,7 +19,7 @@ touch => makes file/s within current folder (ex. touch index.html) if it doesn�
 rm => remove a file (danger… permanently deletes)
 rmdir => remove empty folders
 rm -rf =>  removes folder and all content	 (ex. rm -rf Project1)
-Virtual Environment: 
+- Virtual Environment: 
 Python Tutorial VENV (Mac & Linux) - How to Use Virtual Environments with the Built-In venv Module - https://www.youtube.com/watch?v=Kg1Yvry_Ydk
 mk dir project_folder => create folder for new project
 cd /project_folder => open project folder
@@ -33,3 +33,15 @@ rm -rf project_name => deletes virtual environment and all files therein
 pip install -r requirements.txt => if requirements.txt exist then will copy over all packages
 python3 -m venv venv —system-site-packages => installs all global packages in virtual environment any additional packages added will only be added
 to virtual environment
+- Conda Virtual Environment
+conda => activates conda
+conda create -n project_name python=3.6 => creates new environment
+conda activate project_name => activates virtual environment (do not need to be in specific folder)
+pip install package_name => install any required packages (tensorflow and keras important for machine learning)
+conda deactivate => deactivates virtual environment
+* In VScode use command pallete to Python: Select Interpreter, select path where Python3.6 is installed ~opt/anaconda3/envs/tensor/bin/python 
+
+
+
+
+
