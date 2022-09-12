@@ -19,7 +19,8 @@ touch => makes file/s within current folder (ex. touch index.html) if it doesnâ€
 rm => remove a file (dangerâ€¦ permanently deletes)
 rmdir => remove empty folders
 rm -rf =>  removes folder and all content	 (ex. rm -rf Project1)
-Virtual Environment:
+Virtual Environment: 
+Python Tutorial VENV (Mac & Linux) - How to Use Virtual Environments with the Built-In venv Module - https://www.youtube.com/watch?v=Kg1Yvry_Ydk
 python3 -m venv project_name (common to use venv as project name) =>  creates virtual environment
 source project_name/bin/activate  =>  activates virtual environment
 pip list => list packages installed in virtual environment
