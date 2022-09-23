@@ -41,6 +41,8 @@ pip install package_name => install any required packages (tensorflow and keras 
 conda deactivate => deactivates virtual environment
 * In VScode use command pallete to Python: Select Interpreter, select path where Python3.6 is installed ~opt/anaconda3/envs/tensor/bin/python 
 
+-VS code
+code . => launch SC code (VS code icon has to be in Dock and in Command Palete - Shell Command: Install 'code' command in PATH
 
 
 
