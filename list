@@ -46,6 +46,12 @@ conda deactivate => deactivates virtual environment
 -VS code
 code . => launch SC code (VS code icon has to be in Dock and in Command Palete - Shell Command: Install 'code' command in PATH
 
+- GIT
+git --version => shows version of git installed
+git config --list => lists git information
+git config --global user.name "Kevin Edwards" => sets global username
+git config --global user.email "kedwards0107@gmail.com" => sets global user email address
+
 
 
 
