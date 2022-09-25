@@ -47,10 +47,10 @@ conda deactivate => deactivates virtual environment
 -VS code
 code . => launch SC code (VS code icon has to be in Dock and in Command Palete - Shell Command: Install 'code' command in PATH
 
-- GIT
+- GIT , https://www.youtube.com/watch?v=HVsySz-h9r4&t=1016s
 git --version => shows version of git installed
 git config --list => lists git information
-git config --global user.name "Kevin Edwards" => sets global username
+git config --global user.name "Kedwards0107" => sets global username
 git config --global user.email "kedwards0107@gmail.com" => sets global user email address
 git verb --help => ex. git add --help
 git init => initiates git
@@ -63,6 +63,8 @@ git reset => removes all files from staging area
 git commit -m "message about commit" => commits all staged files
 git log => shows log for all commits
 git clone <url>  <where to clone> => clones git repository ex. git clone https://github.com/kedwards0107/Terminal_Commands.git . (dot is just current directory)
+git remote -v => shows remote repository
+git branch -a => shows what branch you are on
 
 
 
