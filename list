@@ -21,6 +21,7 @@ touch => makes file/s within current folder (ex. touch index.html) if it doesnâ€
 rm => remove a file (dangerâ€¦ permanently deletes)
 rmdir => remove empty folders
 rm -rf =>  removes folder and all content	 (ex. rm -rf Project1)
+
 - Virtual Environment: 
 Python Tutorial VENV (Mac & Linux) - How to Use Virtual Environments with the Built-In venv Module - https://www.youtube.com/watch?v=Kg1Yvry_Ydk
 mk dir project_folder => create folder for new project
@@ -54,9 +55,14 @@ git config --global user.email "kedwards0107@gmail.com" => sets global user emai
 git verb --help => ex. git add --help
 git init => initiates git
 rm -rf .git => removes git directory
-touch git.ignore => creates file that you can add which files to not upload to git
-git status => shows git status - branch, changes, etc.
-
+touch git.ignore => creates file that you can add which files to not upload to git, ex. .project
+git status => shows git status - branch, changes, etc. 
+git add -A => stages all changes
+git add file_name => stages specific file ex. git add demo.py
+git reset => removes all files from staging area
+git commit -m "message about commit" => commits all staged files
+git log => shows log for all commits
+git clone <url>  <where to clone> => clones git repository ex. git clone https://github.com/kedwards0107/Terminal_Commands.git . (dot is just current directory)
 
 
 
