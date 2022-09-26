@@ -85,3 +85,6 @@ grep -l "text to search" . => shows file that has match inside
 grep -c "text to search" . => shows file that has match inside and number of matches in file
 history | grep "git commit" => can combine searches using | symbol, shows git commit in history
 history | grep "git commit" | grep "dotfile" => can use multiple
+ - regular expressions in grep
+ grep "...-...-...." => will search for phone number format 232-111-9832
+ ggrep -P "\d{3}-\d{3}-\d{4}" names.txt => to use GNU version of regular expressions
