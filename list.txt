@@ -23,6 +23,7 @@ rmdir => remove empty folders
 rm -rf =>  removes folder and all content	 (ex. rm -rf Project1)
 cmd + k => clear terminal
 control + c => terminate current process
+history => shows history of commands ran during this session
 - Virtual Environment: 
 Python Tutorial VENV (Mac & Linux) - How to Use Virtual Environments with the Built-In venv Module - https://www.youtube.com/watch?v=Kg1Yvry_Ydk
 mk dir project_folder => create folder for new project
@@ -69,4 +70,18 @@ git branch -a => shows what branch you are on
 git pull origin main => always pull from git before pushing (others may have added changes since you last pulled)
 git push origin main => push your commited changes to repository
 
-- GREP commands, https://youtu.be/VGgTmxXp7xQ
+- GREP commands, way to search from terminal, https://youtu.be/VGgTmxXp7xQ
+grep "text to search" file_name.txt => searches for text in given file
+grep -w => returns exact (whole) word
+grep -i => returns results without case sensitivity
+grep -n => returns what line the match is on
+grep -B 4 => shows 4 lines before where match was found. can be any number
+grep -A 2 => shows 2 lines after where match was found. can be any number
+grep -C 3 => shows 3 lines before and after where match was found. can be any number
+grep -win "text to search" ./* => searches entire directory for match to text shows file name and line found on
+grep -win "text to search" ./*.txt => searches txt files in entire directory for match to text shows file name and line found on
+grep -r "text to search" . => recursive search that will also search subdirectory
+grep -l "text to search" . => shows file that has match inside
+grep -c "text to search" . => shows file that has match inside and number of matches in file
+history | grep "git commit" => can combine searches using | symbol, shows git commit in history
+history | grep "git commit" | grep "dotfile" => can use multiple
