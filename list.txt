@@ -22,6 +22,7 @@ rm => remove a file (danger… permanently deletes)
 rmdir => remove empty folders
 rm -rf =>  removes folder and all content	 (ex. rm -rf Project1)
 cmd + k => clear terminal
+control + c => terminate current process
 - Virtual Environment: 
 Python Tutorial VENV (Mac & Linux) - How to Use Virtual Environments with the Built-In venv Module - https://www.youtube.com/watch?v=Kg1Yvry_Ydk
 mk dir project_folder => create folder for new project
@@ -68,4 +69,4 @@ git branch -a => shows what branch you are on
 git pull origin main => always pull from git before pushing (others may have added changes since you last pulled)
 git push origin main => push your commited changes to repository
 
-
+- GREP commands, https://youtu.be/VGgTmxXp7xQ
