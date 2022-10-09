@@ -89,3 +89,12 @@ history | grep "git commit" | grep "dotfile" => can use multiple
  grep "...-...-...." => will search for phone number format 232-111-9832
  ggrep -P "\d{3}-\d{3}-\d{4}" names.txt => to use GNU version of regular expressions for digits
   ggrep -wirlP "\d{3}-\d{3}-\d{4}" names.txt => can use other limiters as well
+
+- Heroku 
+Push to Heroku
+heroku login  
+# Login with email and password
+git init   
+git add .        
+git commit -m "ready to deploy"
+git push heroku main      
